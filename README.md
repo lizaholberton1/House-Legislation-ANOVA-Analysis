@@ -1,13 +1,16 @@
 # House-Legislation-ANOVA-Analysis
 Final paper analyzing the relationship between race and bill sponsorship in the U.S. House using one-way ANOVA.
+
 Overview
 This research examines whether racial identity influences the number of bills sponsored by members of the U.S. House of Representatives.
+
 Research Question
 Does racial identity influence the number of bills a House member sponsors?
+
 Dataset
 Census data from all 437 members of the U.S. House of Representatives, with 426 complete observations used in the final analysis.
-Variables
 
+Variables
 Independent Variable: Race (7 categories: Black/African American, Native American/Alaska Native, Asian/Native Hawaiian, Pacific Islander, Bi-racial/Multi-racial, White, Hispanic/Latino)
 Dependent Variable: Number of bills sponsored (discrete count)
 
