@@ -1,0 +1,36 @@
+variable,concept,variable description,values/codes,"notes, including data source",,
+race,identity,racial/cultural identification,"1 - Black/ African American
+2 - Native American/Alaska Native
+3 - AsianNative Hawaiian
+4 - Pacific Islander
+5 - Bi-racial/multi-racial
+6 - White
+7 - Hispanic/Latino",Houseofgov.representatives  ,,
+gender,identity,gender ,"1 - Women
+2 - Man
+3 - Other",Houseofgov.representatives  ,,
+party,identity,party allegiance,"1 - Republican
+2 - Democrat
+3 - Independent ",Houseofgov.representatives https://www.house.gov/representatives#state-alabama , ,
+age,identity,how old they are ,numerical amount,Houseofgov.representatives,,
+education,status,what degree they got up to ,"1 – No High School Diploma
+2 – High School Diploma or Equivalent (e.g., GED)
+3 – Some College, No Degree
+4 – Associate Degree
+5 – Bachelor’s Degree
+6 – Master’s Degree
+7 – Professional Degree (e.g., J.D., M.D. MBA)
+8 – Doctoral Degree (e.g., Ph.D., Ed.D.)",https://www.house.gov/representatives ,,
+term,status,how many times have they been in office,years (numerical),https://clerk.house.gov/member_info/Terms_of_Service.pdf ,,
+prev_job,status,their job type prior to being elected,"1 - professionals (including lawyers, doctors, professors); 
+2  - other","https://clerk.house.gov/member_info/Terms_of_Service.pdf
+",,
+wealth,SES,what is their net worth,dollars (million),https://en.wikipedia.org/wiki/List_of_current_members_of_the_United_States_Congress_by_wealth,not current congress,https://www.quiverquant.com/congress-live-net-worth/ 
+christian,identity,If they are Christians or a different religion   ,0- not Christian                                     1- yes Christian  ,https://www.pewresearch.org/religion/2023/01/03/faith-on-the-hill-2023/,,
+abortion,policy,if they support abortion or are against it,0- does not support legalized abortion 1- does support legalized abortion, https://www.plannedparenthoodaction.org/congressional-scorecard,https://www.plannedparenthoodaction.org/congressional-scorecard,https://cdn.plannedparenthood.org/uploads/filer_public/00/73/00733f91-499a-4e47-8c8e-cb269861c1b0/2023_legislative_scorecard_004.pdf 
+gun_policy,policy,what they level of gun control they agree with is,1 - Allow individuals to purchase and own guns with no restrictions. 2 - Allow some guns (ban assault rifles) 3 - Ban all guns 4 - Other stance,https://www.nrapvf.org/grades/,,
+voting_record,status,"percentage of votes they participated in, in congress",numerical percentage Ex. 0.98,,,
+bills,policy,amount of bills they have sponsored,numerical amount,https://www.congress.gov ,,
+region,geography,state represented by rep,1 = northeast; 2= south; 3 = west; 4 = midwest; 5 = other,southwest and south east combined; Houseofgov.representatives,,
+,,,,,,
+https://ballotpedia.org/Changes_in_Net_Worth_of_U.S._Senators_and_Representatives_(Personal_Gain_Index),,"https://www.c-span.org/congress/members/?chamber=house&all (has information for multiple cataegries, go through and click on individual names)",,,,
